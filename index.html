@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <title>Burger GALLERY</title>
+    <meta name="description" content="Lubelski food truck serwujący burgery. Mistrzowsko przyrządzona wołowina. Szukaj nas na ulicy XXX. Obsługujemy imprezy okolicznościowe.">
+    <!-- Facebook metadata OG -->
+    <meta property="og:image:width" content="279">
+    <meta property="og:image:height" content="279">
+    <meta property="og:title" content="Burger GALLERY">
+    <meta property="og:description" content="Lubelski food truck serwujący burgery. Mistrzowsko przyrządzona wołowina. Obsługujemy imprezy okolicznościowe.">
+    <meta property="og:url" content="http://superburger.com">
+    <!-- //  -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- GEO META -->
+    <meta name="geo.region" content="PL">
+    <meta name="geo.placename" content="Lublin">
+    <!-- // -->
+    <!-- VIEWPORT CSS AND FONTS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Merriweather:300, 400, 700i, 900" rel="stylesheet">
+    <!-- REALFAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- // -->
+</head>
+<body>
+
+<!-- Preloading photo -->
+<div id="preload-01"></div> 
+<div id="preload-02"></div> 
+<div id="preload-03"></div> 
+<div id="preload-04"></div> 
+<div id="preload-05"></div> 
+<div id="preload-06"></div>
+<!-- /Preloading photo -->
+
+    <section class="section-gallery">
+    <div id="loading"><h6>Gallery is loading ...</h6></div>
+        <div class="gallery">
+                <div class="gallery-photo">
+                        <div id="current"></div>
+                        <div id="next"></div>
+                </div>
+                <div class="gallery-description">
+                <img class="camera" src="img/photo-camera.svg" alt="">
+                    Galeria: <span id="description" class="description">To jest przykładowy opis galerii - Suspendisse aliquet neque vel sem ullamcorper ultricies. </span>
+                </div>
+
+                <div class="gallery-arrows">
+                    <img id="leftArrow" class="circle" src="img/left-arrow.svg" alt="">
+                    <img id="rightArrow" class="circle" src="img/right-arrow.svg" alt="">
+                </div>
+                <div class="gallery-nav">
+                    <div id="thumbnail-0" class="photo">
+                        <div data-numberOfPhoto="0" class="kliker"></div>
+                        <img class="zoom" src="img/zoom.svg">
+                    </div>
+                    <div id="thumbnail-1" class="photo">
+                        <div data-numberOfPhoto="1" class="kliker"></div>
+                        <img class="zoom" src="img/zoom.svg">
+                    </div>
+                    <div id="thumbnail-2" class="photo">
+                        <div data-numberOfPhoto="2" class="kliker"></div>
+                        <img class="zoom" src="img/zoom.svg">
+                    </div>
+                    <div id="thumbnail-3" class="photo"><img class="zoom" src="img/zoom.svg">
+                        <div data-numberOfPhoto="3" class="kliker"></div>
+                        <img class="zoom" src="img/zoom.svg">
+                    </div>
+                    <div id="thumbnail-4" class="photo"><img class="zoom" src="img/zoom.svg">
+                        <div data-numberOfPhoto="4" class="kliker"></div>
+                        <img class="zoom" src="img/zoom.svg">
+                    </div>
+                    <div id="thumbnail-5" class="photo"><img class="zoom" src="img/zoom.svg">
+                        <div data-numberOfPhoto="5" class="kliker"></div>
+                        <img class="zoom" src="img/zoom.svg">
+                    </div>
+
+                        <ul class="dots">
+                            <li id="0" class="dot redDot"></li>
+                            <li id="1" class="dot"></li>
+                            <li id="2" class="dot"></li>
+                            <li id="3" class="dot"></li>
+                            <li id="4" class="dot"></li>
+                            <li id="5" class="dot"></li>
+                        </ul>
+                </div>
+        </div>
+        <div class="sidebar-footer">
+                <img class="logo-sidebar" src="img/burger-logo.jpg" alt="">
+                <!-- <a href="#"><img class="up-arrow" src="img/up-arrow.svg"></a>
+                <span class="home">do góry &nbsp &nbsp</span> -->
+                <div class="credits">
+                    <p>_</p>
+                    <p>realizacja</p>
+                    <a href="http://artmilkowski.surge.sh/" target="_blank" rel="noopener noreferrer">
+                    <p>artmilkowski</p>
+                    </a>
+                </div>
+
+        </div>
+    </section>
+
+<script src="js/preloader.js"></script>
+<script src="js/carouselgallery.js"></script>
+</body>
+</html>
